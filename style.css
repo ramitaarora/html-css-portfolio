@@ -1,0 +1,138 @@
+/* Global Styles */
+
+:root {
+    --yellow: rgb(216, 180, 1);
+    --brown: rgb(105, 1, 1);
+    --border: dotted var(--brown) 2px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--brown);
+}
+
+section {
+    margin: 20px 50px;
+}
+
+h1 {
+    margin: 20px auto;
+}
+
+/* Header and Footer Styles */
+
+nav, footer {
+    height: 60px;
+    width: 100%;
+    background-color: var(--yellow);
+    color: var(--brown);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--border);
+}
+
+nav li {
+    display: inline-flex;
+    margin: 0 10px 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.header-image {
+    margin: 0;
+    height: 400px;
+    width: 100%;
+    background-image: url('./images/computer-2048166_1280.jpeg');
+    background-position: center;
+}
+
+/* About Styles */
+
+.about p {
+    margin: 20px;
+}
+
+
+/* Project Styles */
+
+.projects {
+    background-color: var(--yellow);
+    color: var(--brown);
+    margin: 20px 0px;
+    border: var(--border);
+}
+
+.projects h1 {
+    padding: 20px 50px 0 50px;
+}
+
+.card h2 {
+    font-size: 99%;
+    position: relative;
+    top: -10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    border: var(--border);
+    background-color: rgba(255, 255, 255, 0.498);
+}
+
+.project-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: inline-flex;
+    margin: 20px;
+    height: 300px;
+    width: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.project-1 {
+    background-image: url("./images/computer-2048166_1280.jpeg");
+}
+
+.project-2 {
+    background-image: url("./images/computer-2048166_1280.jpeg");
+}
+
+.project-3 {
+    background-image: url("./images/computer-2048166_1280.jpeg");
+}
+
+.project-4 {
+    background-image: url("./images/computer-2048166_1280.jpeg");
+}
+
+/* Contact Me Styles */
+
+.contact ul {
+    margin: 0 20px;
+}
+
+.contact li {
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+}
+
+.contact img {
+    height: 30px;
+}
+
+
+/* Media Styles */
+
