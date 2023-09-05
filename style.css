@@ -51,13 +51,6 @@ nav a {
     background-position: center;
 }
 
-/* About Styles */
-
-.about p {
-    margin: 20px;
-}
-
-
 /* Project Styles */
 
 .projects {
@@ -80,14 +73,7 @@ nav a {
     width: 200px;
     height: 20px;
     border: var(--border);
-    background-color: rgba(255, 255, 255, 0.498);
-}
-
-.project-cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.645);
 }
 
 .card {
@@ -101,38 +87,17 @@ nav a {
 }
 
 .project-1 {
-    background-image: url("./images/computer-2048166_1280.jpeg");
+    background-image: url("./images/calculator-2212965_1280.jpeg");
 }
 
 .project-2 {
-    background-image: url("./images/computer-2048166_1280.jpeg");
+    background-image: url("./images/cook-6046729_1280.jpg");
 }
 
 .project-3 {
-    background-image: url("./images/computer-2048166_1280.jpeg");
+    background-image: url("./images/laptop-6002099_1280.jpg");
 }
 
 .project-4 {
-    background-image: url("./images/computer-2048166_1280.jpeg");
+    background-image: url("./images/smartphone-570507_1280.jpg");
 }
-
-/* Contact Me Styles */
-
-.contact ul {
-    margin: 0 20px;
-}
-
-.contact li {
-    margin: 20px;
-    text-decoration: none;
-    list-style: none;
-    display: inline-flex;
-}
-
-.contact img {
-    height: 30px;
-}
-
-
-/* Media Styles */
-
