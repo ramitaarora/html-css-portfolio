@@ -51,6 +51,12 @@ nav a {
     background-position: center;
 }
 
+/* About Styles */
+
+.about p {
+    margin: 20px;
+}
+
 /* Project Styles */
 
 .projects {
@@ -100,4 +106,26 @@ nav a {
 
 .project-4 {
     background-image: url("./images/smartphone-570507_1280.jpg");
+}
+
+/* Contact Me Styles */
+
+.contact ul {
+    margin: 0 20px;
+}
+
+.contact li {
+    list-style: none;
+    display: inline-flex;
+}
+
+.contact a {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.contact img {
+    height: 30px;
+    margin-right: 10px;
 }
