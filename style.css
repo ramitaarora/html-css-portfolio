@@ -92,8 +92,15 @@ nav a {
     background-repeat: no-repeat;
 }
 
+.card:nth-child(1) {
+    display: block;
+    height: 700px;
+    width: 1000px;
+    margin: 0px;
+}
+
 .project-1 {
-    background-image: url("./images/calculator-2212965_1280.jpeg");
+    background-image: url("./images/horiseon-screenshot.png");
 }
 
 .project-2 {
@@ -106,6 +113,17 @@ nav a {
 
 .project-4 {
     background-image: url("./images/smartphone-570507_1280.jpg");
+}
+
+.project-5 {
+    background-image: url("./images/calculator-2212965_1280.jpeg");
+}
+
+.project-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Contact Me Styles */
@@ -129,3 +147,6 @@ nav a {
     height: 30px;
     margin-right: 10px;
 }
+
+
+/* Media Styles */
