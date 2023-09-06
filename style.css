@@ -76,6 +76,7 @@ nav a {
 #about img {
     width: 250px;
     border-radius: 50%;
+    height: auto;
 }
 
 #about p {
@@ -161,5 +162,9 @@ nav a {
         flex-direction: column;
         align-items: center;
     }
-}
 
+    .card {
+        height: auto;
+        width: auto;
+    }
+}
