@@ -24,7 +24,7 @@ h1 {
 /* Header and Footer Styles */
 
 nav, footer {
-    height: 60px;
+    height: 45px;
     width: 100%;
     background-color: var(--yellow);
     color: var(--brown);
@@ -64,6 +64,7 @@ nav a {
 .header-image h2 {
     text-shadow: 2px 2px 2px grey;
     margin-right: 10px;
+    text-align: right;
 }
 
 /* About Styles */
@@ -95,59 +96,39 @@ nav a {
 }
 
 .card h2 {
-    font-size: 99%;
-    position: relative;
-    top: -10px;
+    font-size: 120%;
     margin: 0 auto;
     text-align: center;
-    width: 200px;
-    height: 20px;
-    border: var(--border);
-    background-color: rgba(255, 255, 255, 0.645);
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .card {
-    display: inline-flex;
     margin: 20px;
     height: 300px;
     width: 500px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .card:nth-child(1) {
     display: block;
-    height: 700px;
-    width: 1000px;
+    height: 100%;
+    width: 100%;
     margin: 0px;
-}
-
-.project-1 {
-    background-image: url("./images/horiseon-screenshot.png");
-}
-
-.project-2 {
-    background-image: url("./images/cook-6046729_1280.jpg");
-}
-
-.project-3 {
-    background-image: url("./images/laptop-6002099_1280.jpg");
-}
-
-.project-4 {
-    background-image: url("./images/smartphone-570507_1280.jpg");
-}
-
-.project-5 {
-    background-image: url("./images/calculator-2212965_1280.jpeg");
+    flex-grow: 0 0 100%;
 }
 
 .project-cards {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* Contact Me Styles */
