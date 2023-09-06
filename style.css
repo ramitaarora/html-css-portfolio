@@ -133,6 +133,10 @@ footer p {
     overflow: hidden;
 }
 
+.card a {
+    text-decoration: none;
+}
+
 .card:nth-child(1) {
     display: block;
     height: 100%;
