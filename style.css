@@ -5,7 +5,7 @@
     --brown: rgb(105, 1, 1);
     --border: dotted var(--brown) 2px;
     --paisley: url("./images/Paisley.png");
-    --transparentwhite: rgba(255, 255, 255, 0.962);
+    --transparentwhite: rgba(255, 255, 255, 0.836);
 }
 
 * {
@@ -28,15 +28,15 @@ h1 {
 nav, footer {
     height: 45px;
     width: 100%;
-    background-color: var(--yellow);
     color: var(--brown);
     display: flex;
     align-items: center;
     justify-content: center;
     border: var(--border);
-    background-image: var(--paisley);
+    background: var(--paisley), var(--yellow);
     background-size: 80%;
     background-position: center;
+    background-blend-mode: overlay;
 }
 
 nav {
@@ -108,13 +108,13 @@ footer p {
 /* Project Styles */
 
 #projects {
-    background-color: var(--yellow);
     color: var(--brown);
     margin: 20px 0px;
     border: var(--border);
-    background-image: var(--paisley);
+    background: var(--paisley), var(--yellow);
     background-size: 80%;
     background-position: center;
+    background-blend-mode:overlay;
 }
 
 #projects h1 {
@@ -145,7 +145,7 @@ footer p {
 }
 
 .card:hover {
-    box-shadow: var(--brown) 5px 5px 5px;
+    box-shadow: black 5px 5px 5px;
 }
 
 .card a {
@@ -179,11 +179,13 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #contact li {
     list-style: none;
     display: inline-flex;
+    
 }
 
 #contact li:hover {
