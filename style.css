@@ -63,6 +63,15 @@ nav a {
 
 /* About Styles */
 
+.about {
+    display: flex;
+}
+
+.about img {
+    width: 250px;
+    border-radius: 50%;
+}
+
 .about p {
     margin: 20px;
 }
@@ -161,8 +170,14 @@ nav a {
 
 /* Media Styles */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 772px) {
     .header-image h2 {
         display: none;
     }
+
+    .about {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
+
