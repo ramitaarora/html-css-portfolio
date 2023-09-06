@@ -145,7 +145,7 @@ footer p {
 }
 
 .card:hover {
-    box-shadow: black 5px 5px 5px;
+    box-shadow: white 5px 5px 5px;
 }
 
 .card a {

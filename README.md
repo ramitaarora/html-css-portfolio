@@ -21,7 +21,7 @@ This website can be used via GitHub Pages at https://ramitaarora.github.io/indur
 
 ## Usage
 
-<INSERT SCREENSHOT HERE>
+<img src="./images/portfolio-screenshot.png" alt="portfolio-screenshot"/>
 
 ## Credits
 
