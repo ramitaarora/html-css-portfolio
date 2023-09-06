@@ -34,6 +34,11 @@ nav, footer {
     border: var(--border);
 }
 
+nav {
+    position: fixed;
+    z-index: 100;
+}
+
 nav li {
     display: inline-flex;
     margin: 0 10px 0 10px;
@@ -63,29 +68,29 @@ nav a {
 
 /* About Styles */
 
-.about {
+#about {
     display: flex;
 }
 
-.about img {
+#about img {
     width: 250px;
     border-radius: 50%;
 }
 
-.about p {
+#about p {
     margin: 20px;
 }
 
 /* Project Styles */
 
-.projects {
+#projects {
     background-color: var(--yellow);
     color: var(--brown);
     margin: 20px 0px;
     border: var(--border);
 }
 
-.projects h1 {
+#projects h1 {
     padding: 20px 50px 0 50px;
 }
 
@@ -147,22 +152,22 @@ nav a {
 
 /* Contact Me Styles */
 
-.contact ul {
+#contact ul {
     margin: 0 20px;
 }
 
-.contact li {
+#contact li {
     list-style: none;
     display: inline-flex;
 }
 
-.contact a {
+#contact a {
     display: flex;
     margin-right: 30px;
     align-items: center;
 }
 
-.contact img {
+#contact img {
     height: 30px;
     margin-right: 10px;
 }
@@ -175,7 +180,7 @@ nav a {
         display: none;
     }
 
-    .about {
+    #about {
         flex-wrap: wrap;
         justify-content: center;
     }
