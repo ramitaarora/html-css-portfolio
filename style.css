@@ -157,10 +157,6 @@ nav a {
 /* Media Styles */
 
 @media screen and (max-width: 772px) {
-    .header-image h2 {
-        display: none;
-    }
-
     #about {
         flex-direction: column;
         align-items: center;
