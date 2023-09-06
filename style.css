@@ -49,6 +49,16 @@ nav a {
     width: 100%;
     background-image: url('./images/computer-2048166_1280.jpeg');
     background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.header-image h2 {
+    text-shadow: 2px 2px 2px grey;
+    margin-right: 10px;
 }
 
 /* About Styles */
@@ -150,3 +160,9 @@ nav a {
 
 
 /* Media Styles */
+
+@media screen and (max-width: 992px) {
+    .header-image h2 {
+        display: none;
+    }
+}
