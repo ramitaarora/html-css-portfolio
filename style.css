@@ -4,6 +4,8 @@
     --yellow: rgb(216, 180, 1);
     --brown: rgb(105, 1, 1);
     --border: dotted var(--brown) 2px;
+    --paisley: url("./images/Paisley.png");
+    --transparentwhite: rgba(255, 255, 255, 0.962);
 }
 
 * {
@@ -32,11 +34,19 @@ nav, footer {
     align-items: center;
     justify-content: center;
     border: var(--border);
+    background-image: var(--paisley);
+    background-size: 80%;
+    background-position: center;
 }
 
 nav {
     position: fixed;
     z-index: 100;
+}
+
+nav ul {
+    background-color: var(--transparentwhite);
+    padding: 5px;
 }
 
 nav li {
@@ -67,6 +77,11 @@ nav a {
     text-align: right;
 }
 
+footer p {
+    background-color: var(--transparentwhite);
+    padding: 5px;
+}
+
 /* About Styles */
 
 #about {
@@ -90,10 +105,15 @@ nav a {
     color: var(--brown);
     margin: 20px 0px;
     border: var(--border);
+    background-image: var(--paisley);
+    background-size: 80%;
+    background-position: center;
 }
 
 #projects h1 {
-    padding: 20px 50px 0 50px;
+    padding: 5px 50px;
+    background-color: var(--transparentwhite);
+    border: var(--border)
 }
 
 .card h2 {
@@ -101,8 +121,9 @@ nav a {
     margin: 0 auto;
     text-align: center;
     padding: 5px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--transparentwhite);
     width: auto;
+    border: var(--border);
 }
 
 .card {
