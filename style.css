@@ -58,6 +58,12 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    position: relative;
+    bottom: 2px;
+    text-shadow: 2px 2px 2px lightgrey;
+}
+
 .header-image {
     margin: 0;
     height: 400px;
@@ -127,11 +133,19 @@ footer p {
     border: var(--border);
 }
 
+.card h2:hover {
+    text-shadow: 3px 3px 3px lightgrey;
+}
+
 .card {
     margin: 20px;
     height: 300px;
     width: 500px;
     overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: var(--brown) 5px 5px 5px;
 }
 
 .card a {
@@ -162,11 +176,19 @@ footer p {
 
 #contact ul {
     margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #contact li {
     list-style: none;
     display: inline-flex;
+}
+
+#contact li:hover {
+    position: relative;
+    bottom: 10px;
 }
 
 #contact a {
