@@ -66,7 +66,7 @@ nav a:hover {
 
 .header-image {
     margin: 0;
-    height: 400px;
+    height: 300px;
     width: 100%;
     background-image: url('./images/header-image-desk.jpeg');
     background-position: center;
@@ -114,13 +114,27 @@ footer p {
     background: var(--paisley), var(--yellow);
     background-size: 80%;
     background-position: center;
-    background-blend-mode:overlay;
+    background-blend-mode: overlay;
 }
 
 #projects h1 {
     padding: 5px 50px;
     background-color: var(--transparentwhite);
-    border: var(--border)
+    border: var(--border);
+}
+
+.card {
+    margin: 20px;
+    height: auto;
+    width: 500px;
+    overflow: hidden;
+}
+
+.project-cards {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .card h2 {
@@ -130,18 +144,12 @@ footer p {
     padding: 5px;
     background-color: var(--transparentwhite);
     width: auto;
+    height: auto;
     border: var(--border);
 }
 
 .card h2:hover {
     text-shadow: 3px 3px 3px lightgrey;
-}
-
-.card {
-    margin: 20px;
-    height: 300px;
-    width: 500px;
-    overflow: hidden;
 }
 
 .card:hover {
@@ -152,18 +160,19 @@ footer p {
     text-decoration: none;
 }
 
+.card p {
+    background-color: var(--transparentwhite);
+    text-align: center;
+    padding: 5px;
+    border: var(--border);
+    margin: 0 auto;
+}
+
 .card:nth-child(1) {
     display: block;
     height: 100%;
     width: 100%;
     margin: 0 auto;
-}
-
-.project-cards {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .card img {
@@ -210,6 +219,10 @@ footer p {
 @media screen and (max-width: 772px) {
     #about {
         flex-direction: column;
+    }
+
+    #contact li {
+        padding: 10px;
     }
 
     .card {
