@@ -4,7 +4,6 @@
     --yellow: rgb(216, 180, 1);
     --brown: rgb(105, 1, 1);
     --border: dotted var(--brown) 2px;
-    --paisley: url("./images/Paisley.png");
     --transparentwhite: rgba(255, 255, 255, 0.836);
 }
 
